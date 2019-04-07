@@ -1,0 +1,30 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U factor_searcher%b	factor_searcher.adb	2527be88 NE OO PK
+
+U factor_searcher%s	factor_searcher.ads	cb57571e EE NE OO PK
+
+D factor_searcher.ads	20190311200212 cb57571e factor_searcher%s
+D factor_searcher.adb	20190326082622 ee70e996 factor_searcher%b
+D system.ads		20180524051738 32a08138 system%s
+X 1 factor_searcher.ads
+2K9*Factor_Searcher 12l5 12e20 2|2b14 22l5 22t20
+4U11*Smallest_Factor 4=28 4<49 2|4b14 20l8 20t23
+4i28 N{positive} 6r8 9r2 10r34 2|4b31 9r36 11r58 14r29 17r36 18m7 18r12
+4i49 Factor{positive} 7r10 9r12 10r20 2|4b52 7m7 13m10 14r35 17r21 18r14
+10i10 J{integer} 10r44
+X 2 factor_searcher.adb
+8l7 for_loop 14r15 16l16 16e24
+9i11 I{integer} 11r51 13r20
+11i41 J{integer} 11r64
+

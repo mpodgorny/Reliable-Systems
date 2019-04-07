@@ -1,0 +1,753 @@
+{
+  "spark": [
+    {
+      "name": "Factor_Searcher",
+      "sloc": [
+        {
+          "file": "factor_searcher.ads",
+          "line": 2
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Factor_Searcher.Smallest_Factor",
+      "sloc": [
+        {
+          "file": "factor_searcher.ads",
+          "line": 4
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "factor_searcher.ads",
+      "line": 4,
+      "col": 49,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Factor_Searcher.Smallest_Factor",
+        "sloc": [
+          {
+            "file": "factor_searcher.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "factor_searcher__flow__24.trace",
+      "msg_id": 0,
+      "how_proved": "flow"
+    },
+    {
+      "file": "factor_searcher.ads",
+      "line": 7,
+      "col": 10,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Factor_Searcher.Smallest_Factor",
+        "sloc": [
+          {
+            "file": "factor_searcher.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "factor_searcher__flow__25.trace",
+      "msg_id": 1,
+      "how_proved": "flow"
+    },
+    {
+      "file": "factor_searcher.adb",
+      "line": 14,
+      "col": 35,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Factor_Searcher.Smallest_Factor",
+        "sloc": [
+          {
+            "file": "factor_searcher.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "factor_searcher__flow__26.trace",
+      "msg_id": 2,
+      "how_proved": "flow"
+    },
+    {
+      "file": "factor_searcher.adb",
+      "line": 17,
+      "col": 21,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Factor_Searcher.Smallest_Factor",
+        "sloc": [
+          {
+            "file": "factor_searcher.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "factor_searcher__flow__27.trace",
+      "msg_id": 3,
+      "how_proved": "flow"
+    },
+    {
+      "file": "factor_searcher.adb",
+      "line": 18,
+      "col": 14,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Factor_Searcher.Smallest_Factor",
+        "sloc": [
+          {
+            "file": "factor_searcher.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "factor_searcher__flow__28.trace",
+      "msg_id": 4,
+      "how_proved": "flow"
+    }
+  ],
+  "proof": [
+    {
+      "file": "factor_searcher.ads",
+      "line": 7,
+      "col": 9,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Factor_Searcher.Smallest_Factor",
+        "sloc": [
+          {
+            "file": "factor_searcher.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 51,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "split_disj": [
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              }
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 343,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 14,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "factor_searcher.ads",
+      "check_line": 7,
+      "check_col": 9,
+      "msg_id": 5,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 3,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "factor_searcher.adb",
+      "line": 18,
+      "col": 13,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Factor_Searcher.Smallest_Factor",
+        "sloc": [
+          {
+            "file": "factor_searcher.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "factor_searcher.adb",
+      "check_line": 18,
+      "check_col": 13,
+      "msg_id": 6,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "factor_searcher.adb",
+      "line": 11,
+      "col": 60,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Factor_Searcher.Smallest_Factor",
+        "sloc": [
+          {
+            "file": "factor_searcher.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "factor_searcher.adb",
+      "check_line": 11,
+      "check_col": 60,
+      "msg_id": 7,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "factor_searcher.adb",
+      "line": 11,
+      "col": 33,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "info",
+      "entity": {
+        "name": "Factor_Searcher.Smallest_Factor",
+        "sloc": [
+          {
+            "file": "factor_searcher.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 62,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "factor_searcher.adb",
+      "check_line": 11,
+      "check_col": 33,
+      "msg_id": 8,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "factor_searcher.adb",
+      "line": 11,
+      "col": 33,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "Factor_Searcher.Smallest_Factor",
+        "sloc": [
+          {
+            "file": "factor_searcher.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "factor_searcher.adb",
+      "check_line": 11,
+      "check_col": 33,
+      "msg_id": 9,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "factor_searcher.adb",
+      "line": 17,
+      "col": 21,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "entity": {
+        "name": "Factor_Searcher.Smallest_Factor",
+        "sloc": [
+          {
+            "file": "factor_searcher.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 13,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 13,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "factor_searcher.adb",
+      "check_line": 17,
+      "check_col": 21,
+      "msg_id": 10,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "factor_searcher.adb",
+      "line": 18,
+      "col": 13,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Factor_Searcher.Smallest_Factor",
+        "sloc": [
+          {
+            "file": "factor_searcher.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 189,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "factor_searcher.adb",
+      "check_line": 18,
+      "check_col": 13,
+      "msg_id": 11,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "factor_searcher.ads",
+      "line": 10,
+      "col": 40,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Factor_Searcher.Smallest_Factor",
+        "sloc": [
+          {
+            "file": "factor_searcher.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "factor_searcher.ads",
+      "check_line": 10,
+      "check_col": 40,
+      "msg_id": 12,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "factor_searcher.ads",
+      "line": 9,
+      "col": 8,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Factor_Searcher.Smallest_Factor",
+        "sloc": [
+          {
+            "file": "factor_searcher.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "factor_searcher.ads",
+      "check_line": 9,
+      "check_col": 8,
+      "msg_id": 13,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "factor_searcher.adb",
+      "line": 9,
+      "col": 11,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Factor_Searcher.Smallest_Factor",
+        "sloc": [
+          {
+            "file": "factor_searcher.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "split_disj": [
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              }
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "factor_searcher.adb",
+      "check_line": 9,
+      "check_col": 11,
+      "msg_id": 14,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "factor_searcher.adb",
+      "line": 14,
+      "col": 31,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Factor_Searcher.Smallest_Factor",
+        "sloc": [
+          {
+            "file": "factor_searcher.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "factor_searcher.adb",
+      "check_line": 14,
+      "check_col": 31,
+      "msg_id": 15,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Factor_Searcher.Smallest_Factor",
+          "sloc": [
+            {
+              "file": "factor_searcher.ads",
+              "line": 4
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Factor_Searcher.Smallest_Factor",
+          "sloc": [
+            {
+              "file": "factor_searcher.ads",
+              "line": 4
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Factor_Searcher",
+          "sloc": [
+            {
+              "file": "factor_searcher.ads",
+              "line": 2
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "marking": 3.46899003488943E-04,
+    "globals (basic)": 3.12115997076035E-04,
+    "globals/properties (advanced)": 7.51768006011844E-04,
+    "flow analysis": 3.02330404520035E-03,
+    "codepeer results": 5.56499981030356E-06,
+    "init_why_sections": 2.91711010504514E-04,
+    "translation of standard": 4.15489822626114E-03,
+    "translation of compilation unit": 2.28127604350448E-03,
+    "proof": 8.34095299243927E-01
+  }
+}

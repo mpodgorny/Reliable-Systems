@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 11" line=" 8" >
+      <vfs_project />
+      <vfs_file>C:\Users\dtend\Desktop\NSI\L1\Z1\Smallest_Factor\src\factor_searcher.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 11" >
+      <vfs_project />
+      <vfs_file>C:\Users\dtend\Desktop\NSI\L1\Z1\Smallest_Factor\obj\gnatprove\gnatprove.out</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\dtend\Desktop\NSI\L1\Z1\Smallest_Factor\src\factor_searcher.ads</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >C:\Users\dtend\Desktop\NSI\L1\Z1\Smallest_Factor\smallest_factor.gpr</vfs_file>
+    <file_marker column=" 11" line=" 8">
+      <vfs_project >C:\Users\dtend\Desktop\NSI\L1\Z1\Smallest_Factor\smallest_factor.gpr</vfs_project>
+      <vfs_file >C:\Users\dtend\Desktop\NSI\L1\Z1\Smallest_Factor\src\factor_searcher.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 11">
+      <vfs_project  />
+      <vfs_file >C:\Users\dtend\Desktop\NSI\L1\Z1\Smallest_Factor\obj\gnatprove\gnatprove.out</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_project >C:\Users\dtend\Desktop\NSI\L1\Z1\Smallest_Factor\smallest_factor.gpr</vfs_project>
+      <vfs_file >C:\Users\dtend\Desktop\NSI\L1\Z1\Smallest_Factor\src\factor_searcher.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

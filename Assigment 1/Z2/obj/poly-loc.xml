@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>C:\Users\dtend\Desktop\NSI\L1\Z2\poly.gpr</vfs_file>
+    <file_marker column=" 55" line=" 10" >
+      <vfs_project>C:\Users\dtend\Desktop\NSI\L1\Z2\poly.gpr</vfs_project>
+      <vfs_file>C:\Users\dtend\Desktop\NSI\L1\Z2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 6" >
+      <vfs_project>C:\Users\dtend\Desktop\NSI\L1\Z2\poly.gpr</vfs_project>
+      <vfs_file>C:\Users\dtend\Desktop\NSI\L1\Z2\src\poly.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

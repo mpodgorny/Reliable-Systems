@@ -1,0 +1,32 @@
+V "GNAT Lib v2018"
+A -O2
+A -gnatA
+A -g
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U linear_search%b	linear_search.adb	14f5752b NE OO PK
+
+U linear_search%s	linear_search.ads	e18853e5 EE NE OO PK
+
+D linear_search.ads	20190226080318 e18853e5 linear_search%s
+D linear_search.adb	20190226080618 f57d26ce linear_search%b
+D system.ads		20180524051738 32a08138 system%s
+X 1 linear_search.ads
+1K9*Linear_Search 14l5 14e18 2|2b14 26l5 26t18
+5I9*T<short_integer> 6r21 9r49 2|6r43 7r15 8r15
+6A9*Ar(integer)<5I9> 9r25 2|6r20
+9V13*Search{5I9} 9>21 9>29 11r14 11r47 2|6b10 23l8 23t14
+9a21 A{6A9} 11r31 11r44 12r25 12r36 2|6b17 10r11 10r21 11r16 11r34 13r33
+. 14r42 17r15
+9i29 I{integer} 11r64 12r49 2|6b24 17r25
+12i16 Index<short_integer> 12r39
+X 2 linear_search.adb
+7i7 Left{1|5I9} 11m7 12r13 13r44 15r42 17r17 17r41 19m7 19r14
+8i7 Right{1|5I9} 11m25 12r21 14r33 15r33
+
